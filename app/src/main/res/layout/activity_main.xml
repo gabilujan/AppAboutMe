@@ -35,7 +35,9 @@
             android:id="@+id/bio_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:lineSpacingMultiplier="1.2"
+            android:orientation="vertical"
+            android:text="@string/bio_text" />
     </ScrollView>
 
 </LinearLayout>
